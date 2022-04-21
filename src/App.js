@@ -6,7 +6,6 @@ import Navbar from "./components/layout/Navbar";
 import Work from "./pages/Work";
 import Footer from "./components/layout/Footer";
 import Alert from "./components/layout/Alert";
-import PropTypes from "prop-types";
 import { MetProvider } from "./context/met/MetContext";
 import { AlertProvider } from "./context/alert/AlertContext";
 
@@ -34,9 +33,5 @@ function App() {
     </MetProvider>
   );
 }
-
-Navbar.defaultProps = {
-  title: "Art Finder",
-};
 
 export default App;

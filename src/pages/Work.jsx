@@ -14,20 +14,14 @@ function Work() {
   }, []);
 
   const {
-    accessionYear,
     primaryImage,
-    primaryImageSmall,
-    department,
-    objectName,
     title,
     culture,
-    period,
     artistDisplayName,
     artistBeginDate,
     artistEndDate,
     medium,
     dimensions,
-    objectURL,
   } = work;
 
   if (loading) {
