@@ -11,6 +11,8 @@ function Work() {
 
   useEffect(() => {
     getWork(params.objectID);
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const {
