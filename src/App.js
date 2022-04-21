@@ -15,7 +15,7 @@ function App() {
       <AlertProvider>
         <Router>
           <div className="flex flex-col justify-between h-screen">
-            <Navbar />
+            <Navbar title="Art Finder" />
             <main className="container mx-auto px-3 pb-12">
               <Alert />
               <Routes>
